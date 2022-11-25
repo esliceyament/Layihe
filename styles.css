@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+  color: #858991;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+}
+.header {
+  background-color: #f2f2ff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 90px;
+  align-items: center;
+}
+
+.head{
+  text-align: center;
+  margin-top: 90px;
+  font-weight: bold;
+  
+}
+
+.bank {
+  color: rgb(121, 4, 101);
+}
+.leftbuttons {
+  font-size: 0;
+  border-radius: 9px;
+ 
+}
+.rightbuttons {
+  font-size: 0;
+  border-radius: 9px;
+ 
+}
+
+.left{
+    margin-top: 50px;
+    margin-left: 280px;
+}
+.right{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+ .button2-left, .button2-right, .button3-left, .button3-right, .button4-left, .button4-right {
+    background-color: white;
+    color: black;
+}
+.button4-left, .button4-right{
+    border-radius: 0px 5px 5px 0px;
+}
+.button1-left, .button1-right{
+    border-radius: 5px 0 0 5px;
+}
+
+#login-button {
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: 'Roboto';
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  font-size: 14px;
+  background-color: white;
+  width: 110px;
+  height: 50px;
+  
+  align-items: center;
+  border: 1px solid #eeecec;
+}
+.leftletter {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #929191;
+}
+.rightletter {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #929191;
+}
+.currency {
+  position: absolute;
+}
+
+.inputt input {
+  width: 306.1px;
+  height: 102px;
+  margin-top: 30px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+}
+
+input[type="number"]::placeholder {
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    left: 10px;
+}
+
+.selected {
+	background-color: #8a44e6;
+	color: white;
+}

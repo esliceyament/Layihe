@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header id="Header">
+        <div class="header">
+            <div class="logo">
+                <img src="./Asset 1@3x 1.png" alt="logo">
+            </div>
+            <nav>
+                <a class="bank" href="">БАНК</a>
+                <a href="#">БИЗНЕС</a>
+                <a href="#">ИНВЕСТИЦИИ</a>
+                <a href="#">СТРАХОВАНИЕ</a>
+                <a href="#">МОБАЙЛ</a>
+                <a href="#">ПУТЕШЕСТВИЯ</a>
+                <a href="#">РАЗВЛЕЧЕНИЯ</a>
+            </nav>
+            <div class="login">
+                <button id="login-button">ВОЙТИ</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container1">
+                <div class="row ">
+                    <h1 class="head">Конвертер валют онлайн</h1>
+                    <div class="d-flex justify-content-around">
+
+                        <div class="left ">
+
+                            <p class="leftletter">У меня есть</p>
+                            <div class="leftbuttons">
+                                <button onclick="select(this), convertLeft()"
+                                    class="button button1-left col-lg-3 selected">RUB</button>
+                                <button onclick="select(this), convertLeft()"
+                                    class="button button2-left col-lg-3">USD</button>
+                                <button onclick="select(this), convertLeft()"
+                                    class="button button3-left col-lg-3">EUR</button>
+                                <button onclick="select(this), convertLeft()"
+                                    class="button button4-left col-lg-3">GBP</button>
+                            </div>
+                            <div class="inputt">
+                                <input onkeyup="convertLeft()" id="left-input" type="number" class="left-input"
+                                    placeholder="1 RUB = 0.0135 USD">
+                            </div>
+
+                        </div>
+                        <div class="right ">
+
+                            <p class="rightletter">Хочу приобрести</p>
+                            <div class="rightbuttons  ">
+                                <button onclick="select(this), convertRight()"
+                                    class="button button1-right col-lg-3">RUB</button>
+                                <button onclick="select(this), convertRight()"
+                                    class="button button2-right col-lg-3 selected">USD</button>
+                                <button onclick="select(this), convertRight()"
+                                    class="button button3-right col-lg-3">EUR</button>
+                                <button onclick="select(this), convertRight()"
+                                    class="button button4-right col-lg-3">GBP</button>
+                            </div>
+                            <div class="inputt">
+                                <input onkeyup="convertRight()" id="right-input" type="number" class="right-input"
+                                    placeholder="1 USD = 73.8896 RUB">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+<script src="./jv.js"></script>
+
+</html>
